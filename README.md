@@ -25,9 +25,9 @@ mateusmachado@usp.br
 
 ### Tese de Conclusão de Curso
 
-O meu TCC pode ser encontrado [aqui]().
+O meu TCC pode ser encontrado [aqui](https://drive.google.com/open?id=0BxeG4Yg1C3hHOXZ1T1JSazY1VGs).
 
-E os slides da minha defesa estão [aqui]().
+E os slides da minha defesa estão [aqui](http://jtemporal.github.io/jessie/).
 
 ### Pipeline de processamento
 
