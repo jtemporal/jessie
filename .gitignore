@@ -1,0 +1,24 @@
+# vim stuff
+*.swp
+
+# gedit stuff
+*md~
+
+# data directory
+data/
+*_tweets_json
+swample*
+
+# taggers
+*.pkl
+
+# cache stuff
+*__pycache__
+*.cache
+
+# coverage
+.coverage
+htmlcov/
+
+# other stuff
+mtarcinalli/
