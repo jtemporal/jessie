@@ -6,8 +6,7 @@
 
 # data directory
 data/
-*_tweets_json
-swample*
+sample*
 
 # taggers
 *.pkl
@@ -15,6 +14,7 @@ swample*
 # cache stuff
 *__pycache__
 *.cache
+*.pyc
 
 # coverage
 .coverage
