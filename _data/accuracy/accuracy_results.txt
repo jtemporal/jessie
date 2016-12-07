@@ -1,0 +1,21 @@
+
+Usando o tagger treinado com o floresta
+Classification Report:
+             precision    recall  f1-score   support
+
+          N       0.17      1.00      0.30       217
+          O       1.00      0.60      0.75      2584
+
+avg / total       0.94      0.63      0.72      2801
+
+
+
+Usando o o tagger treinado com o mac morpho
+Classification Report:
+             precision    recall  f1-score   support
+
+          N       0.18      1.00      0.31       217
+          O       1.00      0.63      0.77      2584
+
+avg / total       0.94      0.66      0.74      2801
+
