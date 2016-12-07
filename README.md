@@ -2,7 +2,7 @@
 
 Jessie was developed as a tool to help students and data analists from Brasil that want to
 process data from [Twitter](https://twitter.com/). It is meant to work as a
-step by step guide to the use of [NLKT]() and [NLPnet]() to tag tweet text.
+step by step guide to the use of [NLKT](http://nltk.org/) to tag tweet text.
 
 In this source repository you will find a guideline in portuguese (I intend to add
 English translations later) to the steps I used in my course final project.
@@ -50,7 +50,7 @@ naquele script. Assim você poderá também entender o que cada função e cada 
 fazem.
 
 Como mencionado anteriormente, o primeiro passo é preparar o seu ambiente. Vá para
-o [markdown configuration](https://gitlab.com/comptext/jtemporal/blob/master/configuration.md),
+o [markdown configuration](https://github.com/jtemporal/jessie/blob/master/configuration.md),
 e siga os passos descritos lá =)
 
 ### Dúvidas, sugestões, discussões e contribuições
