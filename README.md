@@ -2,7 +2,7 @@
 
 Jessie was developed as a tool to help students and data analists from Brasil that want to
 process data from [Twitter](https://twitter.com/). It is meant to work as a
-step by step guide to the use of [NLKT](http://nltk.org/) to tag tweet text.
+step by step guide to the use of [NLTK](http://nltk.org/) to tag tweet text.
 
 In this source repository you will find a guideline in portuguese (I intend to add
 English translations later) to the steps I used in my course final project.
@@ -34,7 +34,7 @@ E os slides da minha defesa estarão [aqui](http://jtemporal.github.io/jessie/).
 A pipeline segue os seguintes passos:
 
  - Preparar o seu ambiente
- - Buscar dados no servidor da faculdade e armazená-los localment
+ - Buscar dados no servidor da faculdade e armazená-los localmente
  - Pré-processar esses dados
  - POS-Tagging
  - Anotar as frequências de termos candidatos usando o algoritmo FREQ Baseline
@@ -42,12 +42,12 @@ A pipeline segue os seguintes passos:
 
 #### Como Usar
 
-Cada script dentro no módulo Jessie, pode ser importado a partir do console
-Python. Cada script possui dois arquivos markdown. O primeiro deles trás
+Cada script dentro do módulo Jessie, pode ser importado a partir do console
+Python. Cada script possui dois arquivos markdown. O primeiro deles traz
 as informações sobre como aquele script funciona e qual o resultado esperado
-ao fim dele. E o segundo, trás informações sobre como funciona o código escrito
+ao fim dele. E o segundo, traz informações sobre como funciona o código escrito
 naquele script. Assim você poderá também entender o que cada função e cada objeto
-fazem.
+faz.
 
 Como mencionado anteriormente, o primeiro passo é preparar o seu ambiente. Vá para
 o [markdown configuration](https://github.com/jtemporal/jessie/blob/master/configuration.md),
@@ -60,8 +60,8 @@ desta plataforma.
 
 #### Contribuições
 Caso queira contribuir, faça um fork do projeto e depois um pull request.
-Se tiver dúvidas quanto à isso, pode abrir uma issue ficarei feliz em ajudar =)
+Se tiver dúvidas quanto à isso, pode abrir uma issue que ficarei feliz em ajudar =)
 
-Eventualmente o projeto será integrado com uma ferramente de CI e um dos
+Eventualmente o projeto será integrado com uma ferramenta de CI e um dos
 checkpoints será o falke8, então fique atento a isso para agilizar o processo
 de aceitar PRs.
