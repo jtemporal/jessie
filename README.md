@@ -27,7 +27,7 @@ mateusmachado@usp.br
 
 O meu TCC pode ser encontrado [aqui](https://drive.google.com/open?id=0BxeG4Yg1C3hHOXZ1T1JSazY1VGs).
 
-E os slides da minha defesa estarão [aqui](http://jtemporal.github.io/jessie/).
+E os slides da minha defesa estarão [aqui](https://speakerdeck.com/jtemporal/final-graduation-project).
 
 ### Pipeline de processamento
 
