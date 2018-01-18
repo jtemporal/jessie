@@ -4,7 +4,7 @@ Jessie was developed as a tool to help students and data analists from Brasil th
 process data from [Twitter](https://twitter.com/). It is meant to work as a
 step by step guide to the use of [NLTK](http://nltk.org/) to tag tweet text.
 
-In this source repository you will find a guideline in portuguese (I intend to add
+In this source repository you will find a guideline in Portuguese (I intend to add
 English translations later) to the steps I used in my course final project.
 
 
