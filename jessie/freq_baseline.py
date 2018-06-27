@@ -4,7 +4,7 @@ from logging import INFO, basicConfig
 from nltk import FreqDist
 
 from jessie import (pos_tagging as pt, pre_process_tweets as pp,
-                       rm_accentuation as ra)
+                       replace_accentuation as ra)
 
 
 def words_for_wordcloud(corpus, frequencies, nouns):
