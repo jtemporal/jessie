@@ -11,14 +11,14 @@ def main():
     # loading tweets
     filename = sys.argv[1]
     tweets = []
-    file = open(filename, "r")
+    file = open_with(filename, "r")
     for line in file:
         tweets.append(line.replace('\n', ' ').replace('\r', ' ').lower())
 
     # loading manual annotated nouns
     filename = sys.argv[2]
     true_nouns = []
-    file = open(filename, "r")
+    file = open_with(filename, "r")
     for line in file:
         true_nouns.append(line.replace('\n', ' ').replace('\r', ' ').lower())
 
@@ -26,7 +26,7 @@ def main():
     # loading tagged nouns
     filename = sys.argv[3]
     pred_nouns = []
-    file = open(filename, "r")
+    file = open_with(filename, "r")
     for line in file:
         pred_nouns.append(line.replace('\n', ' ').replace('\r', ' ').lower())
 
