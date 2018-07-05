@@ -9,34 +9,34 @@ from sklearn import metrics
 
 def main():
     # loading tweets
-    arqName = sys.argv[1]
+    filename = sys.argv[1]
     tweets = []
-    arq = open(arqName, "r")
-    for line in arq:
+    file = open_with(filename, "r")
+    for line in file:
         tweets.append(line.replace('\n', ' ').replace('\r', ' ').lower())
-    
+
     # loading manual annotated nouns
-    arqName = sys.argv[2]
+    filename = sys.argv[2]
     true_nouns = []
-    arq = open(arqName, "r")
-    for line in arq:
+    file = open_with(filename, "r")
+    for line in file:
         true_nouns.append(line.replace('\n', ' ').replace('\r', ' ').lower())
-    
+
 
     # loading tagged nouns
-    arqName = sys.argv[3]
+    filename = sys.argv[3]
     pred_nouns = []
-    arq = open(arqName, "r")
-    for line in arq:
+    file = open_with(filename, "r")
+    for line in file:
         pred_nouns.append(line.replace('\n', ' ').replace('\r', ' ').lower())
 
-    
+
     if len(tweets) != len(true_nouns) or len(tweets) != len(pred_nouns):
         print("Arquivos com tamanhos diferentes")
-        sys.exit() 
-    
-    
-    
+        sys.exit()
+
+
+
 
     y_true = []
     y_pred = []
@@ -45,10 +45,10 @@ def main():
         tweet = tweets[i]
         tweet_true_nouns = true_nouns[i].split(";")
         tweet_pred_nouns = pred_nouns[i].split(";")
-        
+
         tweet_true_nouns = [x.strip(' ') for x in tweet_true_nouns]
         tweet_pred_nouns = [x.strip(' ') for x in tweet_pred_nouns]
-        
+
         print(tweet)
         #print("")
         #print(tweet_true_nouns)
@@ -61,7 +61,7 @@ def main():
                 c_true = "N"
             else:
                 c_true = "O"
-                
+
             if word in tweet_pred_nouns:
                 c_pred = "N"
             else:
@@ -69,14 +69,14 @@ def main():
 
             y_pred.append(c_pred)
             y_true.append(c_true)
-            
+
             if c_pred != c_true:
                 print ("word: %s manual: %s pred: %s" % (word,c_true,c_pred))
 
-                
+
         print("")
         print("")
-    
+
     #for tweet in tweets:
     #    tweet_words = tweet.split()
         #for word in tweet_words:
@@ -89,16 +89,16 @@ def main():
     print(len(y_pred))
     print(len(y_true))
 
-    
+
     print("Classification Report:")
     print(metrics.classification_report(y_true, y_pred))
 
     print("Confusion Matrix:")
     print(metrics.confusion_matrix(y_true, y_pred))
-        
+
 
     #print metrics.accuracy_score(cm,ct)
-    
+
     #print cm.array([[0, 1], [1, 1]])
 
 
